@@ -1,0 +1,8 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "plugins": ["promise"],
+  "rules": {
+    "promise/no-new-statics": "error",
+    "promise/valid-params": "error"
+  }
+}

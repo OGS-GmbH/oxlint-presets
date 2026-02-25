@@ -1,0 +1,17 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "rules": {
+    "oxc/bad-char-at-comparison": "error",
+    "oxc/bad-object-literal-comparison": "error",
+    "oxc/bad-replace-all-arg": "error",
+    "oxc/const-comparisons": "error",
+    "oxc/double-comparisons": "error",
+    "oxc/erasing-op": "error",
+    "oxc/missing-throw": "error",
+    "oxc/no-barrel-file": "error",
+    "oxc/no-const-enum": "error",
+    "oxc/number-arg-out-of-range": "error",
+    "oxc/only-used-in-recursion": "error",
+    "oxc/uninvoked-array-callback": "error"
+  }
+}

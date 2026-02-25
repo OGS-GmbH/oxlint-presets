@@ -1,0 +1,13 @@
+name: npm deploy
+on:
+  workflow_dispatch:
+
+jobs:
+  call-npm-package-checks:
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-checks.yml@v1.1.2
+
+  call-npm-package-publish:
+    needs: call-npm-package-checks
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-publish.yml@v1.1.2
+    secrets:
+      NPM_ORG_OGS_GMBH_CI: ${{ secrets.NPM_ORG_OGS_GMBH_CI }}
