@@ -1,0 +1,13 @@
+name: PR review
+on:
+#  pull_request:
+#    types: [
+#      opened,
+#      reopened,
+#      synchronize
+#    ]
+  workflow_dispatch:
+
+jobs:
+  call-npm-package-pr-commits:
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-pr-commits.yml@v1.1.2

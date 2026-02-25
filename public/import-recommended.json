@@ -1,0 +1,31 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import"],
+  "rules": {
+    "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+    "import/default": "error",
+    "import/export": "error",
+    "import/exports-last": "error",
+    "import/extensions": ["error", "always", {
+      "ts": "never",
+      "ignorePackages": true,
+      "checkTypeImports": true
+    }],
+    "import/first": "error",
+    "import/group-exports": "error",
+    "import/named": "error",
+    "import/namespace": "error",
+    "import/no-absolute-path": "error",
+    "import/no-amd": "error",
+    "import/no-commonjs": "error",
+    "import/no-cycle": "error",
+    "import/no-deprecated": "error",
+    "import/no-duplicates": ["error", {
+      "preferInline": true
+    }],
+    "import/no-empty-named-blocks": "error",
+    "import/no-named-as-default": "error",
+    "import/no-named-as-default-member": "error",
+    "import/no-self-import": "error"
+  }
+}

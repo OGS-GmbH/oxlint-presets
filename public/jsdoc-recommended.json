@@ -1,0 +1,87 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "plugins": ["jsdoc"],
+  "rules": {
+    "jsdoc/check-access": "error",
+    "jsdoc/check-property-names": "error",
+    "jsdoc/check-tag-names": ["error", {
+      "definedTags": [
+        "abstract",
+        "alpha",
+        "author",
+        "beta",
+        "category",
+        "class",
+        "defaultValue",
+        "deprecated",
+        "document",
+        "enum",
+        "event",
+        "eventProperty",
+        "example",
+        "expand",
+        "experimental",
+        "function",
+        "group",
+        "hidden",
+        "hideconstructor",
+        "ignore",
+        "import",
+        "include",
+        "inheritDoc",
+        "inline",
+        "interface",
+        "internal",
+        "label",
+        "license",
+        "link",
+        "mergeModuleWith",
+        "module",
+        "namespace",
+        "overload",
+        "override",
+        "packageDocumentation",
+        "param",
+        "primaryExport",
+        "private",
+        "privateRemarks",
+        "property",
+        "protected",
+        "public",
+        "readonly",
+        "remarks",
+        "returns",
+        "sealed",
+        "see",
+        "since",
+        "sortStrategy",
+        "summary",
+        "template",
+        "throws",
+        "typeParam",
+        "useDeclaredType",
+        "virtual"
+      ],
+      "typed": true
+    }],
+    "jsdoc/empty-tags": "error",
+    "jsdoc/implements-on-classes": "error",
+    "jsdoc/no-defaults": ["error", {
+      "noOptionalParamNames": true
+    }],
+    /*
+    "jsdoc/require-param": ["error", {
+      "checkConstructors": true
+    }],
+    */
+    "jsdoc/require-param-description": "error",
+    /*
+    "jsdoc/require-property": "error",
+    */
+    "jsdoc/require-property-description": "error",
+    "jsdoc/require-property-name": "error",
+    "jsdoc/require-returns": "error",
+    "jsdoc/require-returns-description": "error",
+    "jsdoc/require-yields": "error"
+  }
+}

@@ -1,0 +1,17 @@
+name: main bump
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-ci-bump:
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/ci-bump.yml@v1.1.2
+    secrets:
+      GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
+    with:
+      config_file: ".release-please/main-config.json"
+      manifest_file: ".release-please/main-manifest.json"
+      target_branch: "main"

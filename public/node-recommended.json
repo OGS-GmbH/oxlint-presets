@@ -1,0 +1,7 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "plugins": ["node"],
+  "rules": {
+    "node/no-path-concat": "error"
+  }
+}

@@ -1,0 +1,21 @@
+name: main deploy
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+  pages: write
+
+jobs:
+  call-npm-package-deploy:
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-deploy.yml@v1.1.2
+    secrets:
+      GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
+      NPM_ORG_OGS_GMBH_CI: ${{ secrets.NPM_ORG_OGS_GMBH_CI }}
+      MS_TEAMS_URL: ${{ secrets.MS_TEAMS_URL }}
+    with:
+      release_please_config_file: ".release-please/main-config.json"
+      release_please_manifest_file: ".release-please/main-manifest.json"
+      release_please_target_branch: "main"
