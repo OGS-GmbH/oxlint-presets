@@ -11,7 +11,7 @@
       "allow": "as-needed",
       "extensions": ["jsx", "tsx"]
     }],
-    "react/jsx-fragments": ["error", "element"],
+    "react/jsx-fragments": ["error", "syntax"],
     "react/jsx-handler-names": "error",
     "react/jsx-key": "error",
     "react/jsx-no-duplicate-props": "error",
