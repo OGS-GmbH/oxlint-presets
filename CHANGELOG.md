@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.1...v1.0.2) (2026-03-04)
+
+
+### Bug Fixes
+
+* **react/jsx-filename-extension:** always enforce jsx/tsx file endings ([8205e43](https://github.com/OGS-GmbH/oxlint-presets/commit/8205e43081a1ad3ff947ebbb8ffc851ac923439d))
+
 ## [1.0.1](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.0...v1.0.1) (2026-03-04)
 
 

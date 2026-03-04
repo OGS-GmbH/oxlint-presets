@@ -1,6 +1,6 @@
 {
   "name": "@ogs-gmbh/oxlint-presets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A curated collection of oxlint preset configurations.",
   "keywords": [
     "oxlint",
