@@ -2,15 +2,19 @@
   "$schema": "../node_modules/oxlint/configuration_schema.json",
   "plugins": ["import"],
   "rules": {
+    /*
     "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+    */
     "import/default": "error",
     "import/export": "error",
     "import/exports-last": "error",
+    /*
     "import/extensions": ["error", "always", {
       "ts": "never",
       "ignorePackages": true,
       "checkTypeImports": true
     }],
+    */
     "import/first": "error",
     "import/group-exports": "error",
     "import/named": "error",
