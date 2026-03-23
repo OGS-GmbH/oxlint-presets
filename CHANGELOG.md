@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.2...v1.0.3) (2026-03-23)
+
+
+### Bug Fixes
+
+* various rules ([09109a7](https://github.com/OGS-GmbH/oxlint-presets/commit/09109a7db3b313302aa5d324d52f29d3f4d30b72))
+* various rules ([1d91213](https://github.com/OGS-GmbH/oxlint-presets/commit/1d91213f297c2020c87714bd98f03aaf2d268879))
+
 ## [1.0.2](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.1...v1.0.2) (2026-03-04)
 
 
