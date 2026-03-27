@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   call-ci-bump:
-    uses: OGS-GmbH/reusable-github-actions/.github/workflows/ci-bump.yml@v1.1.2
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/ci-bump.yml@v1.2.1
     secrets:
       GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
     with:
