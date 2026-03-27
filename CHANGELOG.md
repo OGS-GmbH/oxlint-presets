@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.3...v1.0.4) (2026-03-27)
+
+
+### Bug Fixes
+
+* **eslint:** improve ignore patterns ([24620d7](https://github.com/OGS-GmbH/oxlint-presets/commit/24620d7eca26f448cd7a34c5df0aa3e0471271f9))
+
 ## [1.0.3](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.2...v1.0.3) (2026-03-23)
 
 
