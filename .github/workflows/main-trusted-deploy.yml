@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   call-npm-package-deploy:
-    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-trusted-deploy.yml@v1.1.2
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-trusted-deploy.yml@v1.2.1
     secrets:
       GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
       MS_TEAMS_URL: ${{ secrets.MS_TEAMS_URL }}
