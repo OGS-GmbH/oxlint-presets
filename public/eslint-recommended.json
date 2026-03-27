@@ -3,7 +3,6 @@
   "rules": {
     "eslint/arrow-body-style": ["error", "as-needed"],
     "eslint/block-scoped-var": "error",
-    "eslint/capitalized-comments": ["error", "always"],
     "eslint/constructor-super": "error",
     "eslint/curly": ["error", "multi-or-nest"],
     "eslint/default-case-last": "error",
@@ -117,7 +116,6 @@
     "eslint/no-unused-labels": "error",
     "eslint/no-unused-private-class-members": "error",
     "eslint/no-unused-vars": ["error", {
-      "args": "all",
       "caughtErrors": "all",
       "ignoreRestSiblings": true
     }],
