@@ -7,7 +7,7 @@
 ![Preview](./docs/preview.avif)
 
 <a href="./LICENSE" target="_blank"><img src="https://img.shields.io/github/license/OGS-GmbH/oxlint-presets?color=0f434e&logo=hackthebox&logoColor=000000&labelColor=ffffff" /></a>
-<a href="https://github.com/OGS-GmbH/oxlint-presets/actions/workflows/main-deploy.yml" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/OGS-GmbH/oxlint-presets/main-deploy.yml?color=0f434e&logo=rocket&logoColor=000000&labelColor=ffffff" /></a>
+<a href="https://github.com/OGS-GmbH/oxlint-presets/actions/workflows/main-trusted-deploy.yml" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/OGS-GmbH/oxlint-presets/main-trusted-deploy.yml?color=0f434e&logo=rocket&logoColor=000000&labelColor=ffffff" /></a>
 <a href="https://www.npmjs.com/package/@ogs-gmbh/oxlint-presets" target="_blank"><img src="https://img.shields.io/npm/v/%40ogs-gmbh%2Foxlint-presets?color=0f434e&logo=npm&logoColor=000000&labelColor=ffffff" /></a>
 
 - **Predefined Oxlint Presets**\
