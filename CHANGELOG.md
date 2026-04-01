@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.4...v1.0.5) (2026-04-01)
+
+
+### Bug Fixes
+
+* **import:** remove no-deprecated rule ([43a5c32](https://github.com/OGS-GmbH/oxlint-presets/commit/43a5c3223f1735fc660f32a4fb632b563534621e))
+
 ## [1.0.4](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.3...v1.0.4) (2026-03-27)
 
 
