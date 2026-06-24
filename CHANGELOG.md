@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.5...v1.0.6) (2026-06-24)
+
+
+### Bug Fixes
+
+* remove typescript/explicit-module-boundary-types ([c7e86cc](https://github.com/OGS-GmbH/oxlint-presets/commit/c7e86ccae2069a60767b9bef211cf3f5353b665a))
+
 ## [1.0.5](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.4...v1.0.5) (2026-04-01)
 
 
