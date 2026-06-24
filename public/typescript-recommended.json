@@ -17,15 +17,7 @@
       "fixStyle": "inline-type-imports"
     }],
     "typescript/dot-notation": "error",
-    /*
-    "typescript/explicit-function-return-type": ["error", {
-      "allowHigherOrderFunctions": false
-    }],
-    */
     "typescript/explicit-function-return-type": ["off"],
-    "typescript/explicit-module-boundary-types": ["error", {
-      "allowHigherOrderFunctions": false
-    }],
     "typescript/no-deprecated": "error",
     "typescript/no-duplicate-enum-values": "error",
     "typescript/no-duplicate-type-constituents": "error",
