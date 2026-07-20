@@ -1,8 +1,8 @@
-> *We're OGS, check out our work on [github.com/ogs-gmbh](https://github.com/ogs-gmbh)*
+> _We're OGS, check out our work on [github.com/ogs-gmbh](https://github.com/ogs-gmbh)_
 
 # oxlint-presets
 
-*A curated collection of oxlint preset configurations.*
+_A curated collection of oxlint preset configurations._
 
 ![Preview](./docs/preview.avif)
 
@@ -37,6 +37,7 @@ To get a starting point, simply refer to our documentation at [ogs-gmbh.github.i
 ## Installation
 
 Using npm:
+
 ```sh
 $ npm install -D @ogs-gmbh/oxlint-presets
 ```
@@ -44,21 +45,24 @@ $ npm install -D @ogs-gmbh/oxlint-presets
 <details>
   <summary>Using a different package managers?</summary>
   <br/>
-  
-  Using yarn:
-  ```sh
-  $ pnpm add -D @ogs-gmbh/oxlint-presets
-  ```
-  
-  Using pnpm:
-  ```sh
-  $ pnpm add -D @ogs-gmbh/oxlint-presets
-  ```
-  
-  Using bun:
-  ```sh
-  $ bun add -D @ogs-gmbh/oxlint-presets
-  ```
+
+Using yarn:
+
+```sh
+$ pnpm add -D @ogs-gmbh/oxlint-presets
+```
+
+Using pnpm:
+
+```sh
+$ pnpm add -D @ogs-gmbh/oxlint-presets
+```
+
+Using bun:
+
+```sh
+$ bun add -D @ogs-gmbh/oxlint-presets
+```
 
 </details>
 
@@ -66,39 +70,43 @@ $ npm install -D @ogs-gmbh/oxlint-presets
 
 Now, you're ready to configure `oxlint` with our presets. Simply follow each plugins guide, because we support many [plugins from `oxlint`](https://oxc.rs/docs/guide/usage/linter/plugins.html#supported-plugins):
 
-| Plugin | Preset | Guide |
-| --- | --- | --- |
-| ✅ ESLint | [`eslint-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/eslint-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/eslint) |
+| Plugin        | Preset                                                                                                                   | Guide                                                              |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| ✅ ESLint     | [`eslint-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/eslint-recommended.json)         | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/eslint)     |
 | ✅ TypeScript | [`typescript-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/typescript-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/typescript) |
-| ✅ Unicorn | [`unicorn-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/unicorn-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/unicorn) |
-| ✅ React | [`react-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/react-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/react) |
-| ✅ Next.js | [`nextjs-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/nextjs-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/nextjs) |
-| ✅ OXC | [`oxc-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/oxc-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/oxc) |
-| ✅ import | [`import-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/import-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/import) |
-| ✅ JSDoc | [`jsdoc-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/jsdoc-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/jsdoc) |
-| ✅ Node.js | [`node-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/node-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/node) |
-| ✅ Promise | [`promise-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/promise-recommended.json) | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/promise) |
+| ✅ Unicorn    | [`unicorn-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/unicorn-recommended.json)       | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/unicorn)    |
+| ✅ React      | [`react-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/react-recommended.json)           | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/react)      |
+| ✅ Next.js    | [`nextjs-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/nextjs-recommended.json)         | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/nextjs)     |
+| ✅ OXC        | [`oxc-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/oxc-recommended.json)               | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/oxc)        |
+| ✅ import     | [`import-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/import-recommended.json)         | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/import)     |
+| ✅ JSDoc      | [`jsdoc-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/jsdoc-recommended.json)           | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/jsdoc)      |
+| ✅ Node.js    | [`node-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/node-recommended.json)             | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/node)       |
+| ✅ Promise    | [`promise-recommended.json`](https://github.com/OGS-GmbH/oxlint-presets/blob/main/public/promise-recommended.json)       | [here](https://ogs-gmbh.github.io/oxlint-presets/guide/promise)    |
 
 ## License
 
 The MIT License (MIT) - Please have a look at the [LICENSE file](./LICENSE) for more details.
 
 ## Contributing
+
 Contributions are always welcome and greatly appreciated. Whether you want to report a bug, suggest a new feature, or improve the documentation, your input helps make the project better for everyone.
 
 Feel free to submit a pull request, issue or feature request.
 
 ### Issues and Feature Requests
+
 Reporting an issue or creating a feature request is made by creating a new issue on this repository.
 
 You can create a [new issue or feature request here](../../issues/new/choose).
 
 ### Pull Requests
+
 GitHub offers a solid guideline for contributing to open source projects through pull requests, covering key practices. These best practices provide a reliable starting point for making effective contributions.
 
 You can find the [guidelines here](https://docs.github.com/get-started/exploring-projects-on-github/contributing-to-a-project).
 
 ### Code Of Conduct
+
 We are committed to keeping a welcoming, inclusive, and respectful community for everyone. To help us achieve this, we kindly ask that you adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Disclaimer

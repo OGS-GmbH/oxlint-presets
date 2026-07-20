@@ -9,17 +9,27 @@
     "eslint/default-param-last": "error",
     "eslint/for-direction": "error",
     "eslint/func-names": ["error", "as-needed"],
-    "eslint/getter-return": ["error", {
-      "allowImplicit": true
-    }],
-    "eslint/grouped-accessor-pairs": ["error", "getBeforeSet", {
-      "enforceForTSTypes": true
-    }],
-    "eslint/new-cap": ["error", {
-      "capIsNew": true,
-      "newIsCap": true,
-      "properties": false
-    }],
+    "eslint/getter-return": [
+      "error",
+      {
+        "allowImplicit": true
+      }
+    ],
+    "eslint/grouped-accessor-pairs": [
+      "error",
+      "getBeforeSet",
+      {
+        "enforceForTSTypes": true
+      }
+    ],
+    "eslint/new-cap": [
+      "error",
+      {
+        "capIsNew": true,
+        "newIsCap": true,
+        "properties": false
+      }
+    ],
     "eslint/no-alert": "error",
     "eslint/no-array-constructor": "error",
     "eslint/no-async-promise-executor": "error",
@@ -39,25 +49,42 @@
     "eslint/no-dupe-else-if": "error",
     "eslint/no-dupe-keys": "error",
     "eslint/no-duplicate-case": "error",
-    "eslint/no-duplicate-imports": ["error", {
-      "includeExports": true
-    }],
+    "eslint/no-duplicate-imports": [
+      "error",
+      {
+        "includeExports": true
+      }
+    ],
     "eslint/no-else-return": "error",
-    "eslint/no-empty": ["error", {
-      "allowEmptyCatch": true
-    }],
+    "eslint/no-empty": [
+      "error",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
     "eslint/no-empty-character-class": "error",
-    "eslint/no-empty-function": ["error", {
-      "allow": ["privateConstructors", "protectedConstructors", "decoratedFunctions", "overrideMethods"]
-    }],
+    "eslint/no-empty-function": [
+      "error",
+      {
+        "allow": [
+          "privateConstructors",
+          "protectedConstructors",
+          "decoratedFunctions",
+          "overrideMethods"
+        ]
+      }
+    ],
     "eslint/no-empty-pattern": "error",
     "eslint/no-empty-static-block": "error",
     "eslint/no-eval": "error",
     "eslint/no-ex-assign": "error",
     "eslint/no-extra-bind": "error",
-    "eslint/no-extra-boolean-cast": ["error", {
-      "enforceForInnerExpressions": true
-    }],
+    "eslint/no-extra-boolean-cast": [
+      "error",
+      {
+        "enforceForInnerExpressions": true
+      }
+    ],
     "eslint/no-extra-label": "error",
     "eslint/no-func-assign": "error",
     "eslint/no-global-assign": "error",
@@ -79,9 +106,12 @@
     "eslint/no-nonoctal-decimal-escape": "error",
     "eslint/no-obj-calls": "error",
     "eslint/no-param-reassign": "error",
-    "eslint/no-promise-executor-return": ["error", {
-      "allowVoid": true
-    }],
+    "eslint/no-promise-executor-return": [
+      "error",
+      {
+        "allowVoid": true
+      }
+    ],
     "eslint/no-proto": "error",
     "eslint/no-prototype-builtins": "error",
     "eslint/no-redeclare": "error",
@@ -91,17 +121,23 @@
     "eslint/no-self-assign": "error",
     "eslint/no-self-compare": "error",
     "eslint/no-setter-return": "error",
-    "eslint/no-shadow": ["error", {
-      "builtinGlobals": false
-    }],
+    "eslint/no-shadow": [
+      "error",
+      {
+        "builtinGlobals": false
+      }
+    ],
     "eslint/no-shadow-restricted-names": "error",
     "eslint/no-sparse-arrays": "error",
     "eslint/no-this-before-super": "error",
     "eslint/no-unassigned-vars": "error",
     "eslint/no-unexpected-multiline": "error",
-    "eslint/no-unneeded-ternary": ["error", {
-      "defaultAssignment": true
-    }],
+    "eslint/no-unneeded-ternary": [
+      "error",
+      {
+        "defaultAssignment": true
+      }
+    ],
     "eslint/no-unreachable": "error",
     "eslint/no-unsafe-finally": "error",
     "eslint/no-unsafe-negation": "error",
@@ -115,10 +151,13 @@
     "eslint/no-unused-expressions": "off",
     "eslint/no-unused-labels": "error",
     "eslint/no-unused-private-class-members": "error",
-    "eslint/no-unused-vars": ["error", {
-      "caughtErrors": "all",
-      "ignoreRestSiblings": true
-    }],
+    "eslint/no-unused-vars": [
+      "error",
+      {
+        "caughtErrors": "all",
+        "ignoreRestSiblings": true
+      }
+    ],
     "eslint/no-use-before-define": "error",
     "eslint/no-useless-backreference": "error",
     "eslint/no-useless-call": "error",
@@ -129,14 +168,20 @@
     "eslint/no-useless-rename": "error",
     "eslint/no-useless-return": "error",
     "eslint/no-var": "error",
-    "eslint/no-void": ["error", {
-      "allowAsStatement": true
-    }],
+    "eslint/no-void": [
+      "error",
+      {
+        "allowAsStatement": true
+      }
+    ],
     "eslint/no-with": "error",
     "eslint/operator-assignment": ["error", "always"],
-    "eslint/prefer-const": ["error", {
-      "destructuring": "all"
-    }],
+    "eslint/prefer-const": [
+      "error",
+      {
+        "destructuring": "all"
+      }
+    ],
     "eslint/prefer-exponentiation-operator": "error",
     "eslint/prefer-numeric-literals": "error",
     "eslint/prefer-object-has-own": "error",
@@ -150,8 +195,12 @@
     "eslint/symbol-description": "error",
     "eslint/use-isnan": "error",
     "eslint/valid-typeof": "error",
-    "eslint/yoda": ["error", "never", {
-      "exceptRange": true
-    }]
+    "eslint/yoda": [
+      "error",
+      "never",
+      {
+        "exceptRange": true
+      }
+    ]
   }
 }

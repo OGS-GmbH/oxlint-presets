@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-# Node.js 
+# Node.js
 
 To configure `oxlint` for with our pre-configured Nod.js rules, simply add the following code to your [oxlint configuration file](https://oxc.rs/docs/guide/usage/linter/config.html#create-a-config-file) (`.oxlintrc.json`):
 

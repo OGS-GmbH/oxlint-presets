@@ -1,3 +1,4 @@
 export default {
-  "package.json": "npmPkgJsonLint -c ./node_modules/@ogs-gmbh/linter/package-json-open-source.rules.json"
+  "*.{ts,tsx,mts,cts,mtsx,ctsx,js,jsx,mjs,cjs,mjsx,cjsx}": "oxlint",
+  "*": "oxfmt --no-error-on-unmatched-pattern"
 };

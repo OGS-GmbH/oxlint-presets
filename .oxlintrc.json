@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import", "jsdoc", "promise"],
+  "extends": [
+    "./public/eslint-recommended.json",
+    "./public/jsdoc-recommended.json",
+    "./public/typescript-recommended.json",
+    "./public/oxc-recommended.json",
+    "./public/promise-recommended.json",
+    "./public/unicorn-recommended.json",
+    "./public/import-recommended.json"
+  ]
+}

@@ -3,14 +3,21 @@
   "plugins": ["react"],
   "rules": {
     "react/exhaustive-deps": "off",
-    "react/jsx-boolean-value": ["error", "never", {
-      "assumeUndefinedIsFalse": true
-    }],
+    "react/jsx-boolean-value": [
+      "error",
+      "never",
+      {
+        "assumeUndefinedIsFalse": true
+      }
+    ],
     "react/jsx-curly-brace-presence": "error",
-    "react/jsx-filename-extension": ["error", {
-      "allow": "always",
-      "extensions": ["jsx", "tsx"]
-    }],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "allow": "always",
+        "extensions": ["jsx", "tsx"]
+      }
+    ],
     "react/jsx-fragments": ["error", "syntax"],
     "react/jsx-handler-names": "error",
     "react/jsx-key": "error",
@@ -18,9 +25,12 @@
     "react/jsx-no-script-url": "error",
     "react/jsx-no-undef": "error",
     "react/jsx-no-useless-fragment": "error",
-    "react/jsx-pascal-case": ["error", {
-      "allowNamespace": true
-    }],
+    "react/jsx-pascal-case": [
+      "error",
+      {
+        "allowNamespace": true
+      }
+    ],
     "react/jsx-props-no-spread-multi": "error",
     "react/no-children-prop": "error",
     "react/no-namespace": "error",

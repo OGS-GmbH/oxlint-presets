@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-# Next.js 
+# Next.js
 
 To configure `oxlint` for with our pre-configured Next.js rules, simply add the following code to your [oxlint configuration file](https://oxc.rs/docs/guide/usage/linter/config.html#create-a-config-file) (`.oxlintrc.json`):
 

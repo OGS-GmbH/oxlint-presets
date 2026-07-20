@@ -1,0 +1,8 @@
+{
+  "ignorePatterns": ["dist/**", "CHANGELOG.md", ".release-please/**"],
+  "bracketSameLine": true,
+  "singleAttributePerLine ": true,
+  "sortImports": { "newlinesBetween": false },
+  "sortPackageJson": { "sortScripts": true },
+  "trailingComma": "none"
+}
