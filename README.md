@@ -4,7 +4,7 @@
 
 _A curated collection of oxlint preset configurations._
 
-![Preview](./docs/preview.avif)
+![Preview](./docs/preview.png)
 
 <a href="./LICENSE" target="_blank"><img src="https://img.shields.io/github/license/OGS-GmbH/oxlint-presets?color=0f434e&logo=hackthebox&logoColor=000000&labelColor=ffffff" /></a>
 <a href="https://github.com/OGS-GmbH/oxlint-presets/actions/workflows/main-trusted-deploy.yml" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/OGS-GmbH/oxlint-presets/main-trusted-deploy.yml?color=0f434e&logo=rocket&logoColor=000000&labelColor=ffffff" /></a>
