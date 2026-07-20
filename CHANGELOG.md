@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.6...v1.1.0) (2026-07-20)
+
+
+### Features
+
+* allow explicit any ([b425ac8](https://github.com/OGS-GmbH/oxlint-presets/commit/b425ac850f74edd391b21d1eb348ee06953d9ef5))
+
 ## [1.0.6](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.5...v1.0.6) (2026-06-24)
 
 
