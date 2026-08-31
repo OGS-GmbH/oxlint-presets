@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.1.0...v1.2.0) (2026-08-31)
+
+
+### Features
+
+* **eslint:** add more flexibility to no-unused-vars ([5d22791](https://github.com/OGS-GmbH/oxlint-presets/commit/5d2279124f3ddf8e18b6e2ff00e00cfcb49e877d))
+
 ## [1.1.0](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.0.6...v1.1.0) (2026-07-20)
 
 
