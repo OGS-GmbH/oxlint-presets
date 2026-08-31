@@ -155,7 +155,12 @@
       "error",
       {
         "caughtErrors": "all",
-        "ignoreRestSiblings": true
+        "ignoreRestSiblings": true,
+        "args": "after-used",
+        "argsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_",
+        "destructuredArrayIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
       }
     ],
     "eslint/no-use-before-define": "error",

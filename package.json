@@ -15,8 +15,6 @@
     "static-analysis",
     "typescript"
   ],
-  "homepage": "https://ogs-gmbh.github.io/oxlint-presets/",
-  "bugs": "https://github.com/OGS-GmbH/oxlint-presets/issues",
   "license": "MIT",
   "author": "OGS GmbH",
   "contributors": [
@@ -26,14 +24,7 @@
       "url": "https://simonkov.dev"
     }
   ],
-  "repository": "https://github.com/OGS-GmbH/oxlint-presets",
   "type": "module",
-  "exports": {
-    ".": {
-      "types": "./public-api.d.ts",
-      "default": "./public-api.mjs"
-    }
-  },
   "publishConfig": {
     "directory": "dist/main"
   },

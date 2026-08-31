@@ -53,6 +53,10 @@ export default defineConfig({
         homepage: `https://ogs-gmbh.github.io/${repositoryName}`,
         bugs: `https://github.com/OGS-GmbH/${repositoryName}/issues`,
         repository: `https://github.com/OGS-GmbH/${repositoryName}`
+      },
+      exports: {
+        types: "./public-api.d.ts",
+        default: "./public-api.js"
       }
     })
   ]
