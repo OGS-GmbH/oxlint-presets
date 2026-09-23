@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.2.0...v1.3.0) (2026-09-23)
+
+
+### Features
+
+* **eslint/no-restricted-imports:** restrict imports ([61e32ed](https://github.com/OGS-GmbH/oxlint-presets/commit/61e32ed87b28692de49416189c4f2444a965df8e))
+
 ## [1.2.0](https://github.com/OGS-GmbH/oxlint-presets/compare/v1.1.0...v1.2.0) (2026-08-31)
 
 
