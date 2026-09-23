@@ -1,6 +1,29 @@
 {
   "$schema": "../node_modules/oxlint/configuration_schema.json",
   "rules": {
+    "eslint/no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "regex": "^@mui/[^/]+$",
+            "message": "Please use the default import from '@mui/*' instead."
+          },
+          {
+            "regex": "^@base-ui/[^/]+$",
+            "message": "Please use the default import from '@base-ui/*' instead."
+          },
+          {
+            "regex": "^date-fns$",
+            "message": "Please use an explicit import from 'date-fns/*' instead."
+          },
+          {
+            "regex": "^es-toolkit$",
+            "message": "Please use an explicit import from 'es-toolkit/*' instead."
+          }
+        ]
+      }
+    ],
     "eslint/arrow-body-style": ["error", "as-needed"],
     "eslint/block-scoped-var": "error",
     "eslint/constructor-super": "error",
